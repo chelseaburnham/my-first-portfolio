@@ -3,7 +3,7 @@
 }
 
 header {
-    /* position: fixed; */
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,7 +11,8 @@ header {
     border-width: 3px;
     background-image: url("https://i.pinimg.com/736x/15/99/e6/1599e6af979ce5cddf1b0d8d9b3dafa0.jpg");
     background-size: cover; 
-    width: 100%;
+    width: 98%;
+    top: 8px;
 }
 
 a:link {
@@ -27,20 +28,17 @@ a:hover {
     color: red;
 }
 
-
-
-.header-title {
-    font-size: 30px;
-    font-weight: bold;
-}
-
 .header-nav-list {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     gap: 10px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
+}
+
+.about-me-section {
+    margin-top: 100px;
 }
 
 .about-me-title {
