@@ -53,6 +53,10 @@ a:hover {
     gap: 10px;
 }
 
+.about-me-photo {
+    width: 200px;
+}
+
 .about-me-paragraph {
     display: flex;
     justify-content: center;
@@ -90,3 +94,78 @@ footer {
     text-align: center;
     font-size: 10px;
 }
+
+/* changes size of professional photo when screen size changes */
+@media screen and (max-width: 1200px) {
+    .about-me-photo {
+        width: 250px;
+    }
+  }
+
+@media screen and (max-width: 1024px) {
+    .about-me-photo {
+        width: 200px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .about-me-photo {
+        width: 150px;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    .about-me-photo {
+        font-size: 16px;
+    }
+  }
+
+/* changes size of nav links */
+@media screen and (max-width: 1200px) {
+    li {
+        font-size: 28px;
+    }
+  }
+
+@media screen and (max-width: 1024px) {
+    li {
+        font-size: 24px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    li {
+        font-size: 20px;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    li {
+        font-size: 16px;
+    }
+  }
+
+/* changes size of header title */
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 36px;
+    }
+  }
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 32px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+  }
