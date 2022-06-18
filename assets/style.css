@@ -38,13 +38,22 @@ a:hover {
 }
 
 .about-me-section {
-    margin-top: 130px;
+    margin-top: 120px;
+    border: solid;
 }
 
 .about-me-title {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.about-me {
+    border: solid;
+    padding: 15px;
+    border-width: 3px;
+    background-image: url("https://i.pinimg.com/736x/15/99/e6/1599e6af979ce5cddf1b0d8d9b3dafa0.jpg");
+    background-size: cover; 
 }
 
 .photo-paragraph {
@@ -63,10 +72,22 @@ a:hover {
     align-items: center;
 }
 
+.work-samples-section {
+    border: solid;
+}
+
 .work-samples-title {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.work-samples {
+    border: solid;
+    padding: 15px;
+    border-width: 3px;
+    background-image: url("https://i.pinimg.com/736x/15/99/e6/1599e6af979ce5cddf1b0d8d9b3dafa0.jpg");
+    background-size: cover; 
 }
 
 .work-samples-container {
@@ -80,6 +101,14 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contact-me {
+    border: solid;
+    padding: 15px;
+    border-width: 3px;
+    background-image: url("https://i.pinimg.com/736x/15/99/e6/1599e6af979ce5cddf1b0d8d9b3dafa0.jpg");
+    background-size: cover; 
 }
 
 .contact-me-nav-list {
