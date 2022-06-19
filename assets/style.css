@@ -1,7 +1,3 @@
-* {
-
-}
-
 header {
     position: fixed;
     display: flex;
@@ -13,19 +9,6 @@ header {
     background-size: cover; 
     width: 98%;
     top: 8px;
-}
-
-a:link {
-    color: black;
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-}
-  
-a:hover {
-    color: red;
 }
 
 .header-nav-list {
@@ -41,13 +24,13 @@ a:hover {
     margin-top: 120px;
 }
 
-.about-me-title {
+.about-me {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about-me {
+.about-me-title {
     border: solid;
     padding: 15px;
     border-width: 3px;
@@ -55,7 +38,7 @@ a:hover {
     background-size: cover; 
 }
 
-.photo-paragraph {
+.about-me2 {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -75,13 +58,13 @@ a:hover {
     border: solid;
 }
 
-.work-samples-title {
+.work-samples {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.work-samples {
+.work-samples-title {
     border: solid;
     padding: 15px;
     border-width: 3px;
@@ -97,9 +80,10 @@ a:hover {
     gap: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
+/* these are the edits for the work sample boxes */
 .sample1 {
     width: 100%;
     border: solid;
@@ -137,6 +121,20 @@ a:hover {
 footer {
     text-align: center;
     font-size: 10px;
+}
+
+/* removes underline from links, changes the font to black, and changes the font to red when hovered over */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+  
+a:hover {
+    color: red;
 }
 
 /* changes size of professional photo when screen size changes */
