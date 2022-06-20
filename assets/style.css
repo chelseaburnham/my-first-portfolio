@@ -1,3 +1,8 @@
+:root {
+    --purple: #dab9e6;
+    --blue: #c8e8ed;
+}
+
 header {
     position: fixed;
     display: flex;
@@ -84,7 +89,7 @@ header {
     width: 100%;
     border: solid;
     padding: 50px;
-    background-color: #dab9e6;
+    background-color: var(--purple);
     font-size: 20px;
     font-family: Bradley Hand, cursive;
     max-height: 20px;
@@ -94,7 +99,7 @@ header {
     width: 50%;
     border: solid;
     padding: 50px;
-    background-color: #dab9e6;
+    background-color: var(--purple);
     font-size: 20px;
     font-family: Bradley Hand, cursive;
     max-height: 20px;
