@@ -44,10 +44,6 @@ header {
     gap: 10px;
 }
 
-.about-me-photo {
-    width: 200px;
-}
-
 .about-me-paragraph {
     display: flex;
     justify-content: center;
