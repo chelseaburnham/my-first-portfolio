@@ -3,7 +3,7 @@
 ##  Description
 This is my portfolio. I used HTML and CSS to create a responsive website with an About Me section, Work Samples section, and Contact Me section. The nav links included in the header will take you to the different parts of the page so it is accessible. There are links in the Work Samples section with some activies I have done including refactoring a website, collaborating with a group remotely to create a basic site, and a landing page. 
 
-[Deployable Link](https://chelseaburnham.github.io/my-first-portfolio/)
+[Deployable Link](https://chelseaburnham.github.io/my-portfolio/)
 
 ##  Installation
 To install this project, fork the repository to your Github account. <br />
